@@ -54,6 +54,7 @@ li:last-child {
   font-weight: normal;
   width: 21.5625rem;
   height: 2.34375rem;
+  -webkit-appearance: none;
 }
 .hint-box {
   margin: 0.9375rem 1.0625rem 0;
