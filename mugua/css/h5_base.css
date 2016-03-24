@@ -11,6 +11,9 @@ ol {
   margin: 0;
   padding: 0;
 }
+body {
+  background: #f8f8f8;
+}
 ol {
   list-style: none;
 }
@@ -19,6 +22,10 @@ li {
   line-height: 3.4375rem;
   border-top: 1px solid #e9e9e9;
   padding: 0 1.46875rem;
+  background: #fff;
+}
+li:first-child {
+  margin-top: 0.625rem;
 }
 li:last-child {
   border-bottom: 1px solid #e9e9e9;
@@ -54,10 +61,10 @@ li:last-child {
 }
 .hint-box .icon-check {
   width: 1.0625rem;
-  vertical-align: bottom;
+  vertical-align: -4px;
 }
 .hint {
-  font-size: 0.71875rem;
+  font-size: 0.8125rem;
   color: #999;
 }
 .hint a {
