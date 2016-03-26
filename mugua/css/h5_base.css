@@ -7,7 +7,8 @@
 *****/
 html,
 body,
-ol {
+ol,
+p {
   margin: 0;
   padding: 0;
 }
@@ -57,7 +58,7 @@ li:last-child {
   -webkit-appearance: none;
 }
 .hint-box {
-  margin: 0.9375rem 1.0625rem 0;
+  margin: 0.9375rem 1.0625rem 0.9375rem;
   text-align: center;
 }
 .hint-box .icon-check {
@@ -71,4 +72,46 @@ li:last-child {
 .hint a {
   color: #65b7ea;
   text-decoration: none;
+}
+/*
+ * 风险披露书，客户声明，用户交易须知
+ */
+.auth_term {
+  background: #f0f0f0;
+}
+.container {
+  padding: 0 10px;
+}
+.web_common h2 {
+  color: #5d9cec;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+.web_common h3 {
+  color: #5d9cec;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 0 10px;
+}
+.web_common__tit {
+  padding: 10px 0;
+  background: #fff;
+  margin-top: 15px;
+}
+.web_common__tit p {
+  color: #5d9cec;
+  font-size: 16px;
+  line-height: 24px;
+}
+.web_common__cont {
+  background: #f9f9f9;
+}
+.web_common__cont p {
+  color: #888;
+  font-size: 12px;
+  line-height: 24px;
+}
+.web_common__cont .container {
+  padding: 10px;
 }
